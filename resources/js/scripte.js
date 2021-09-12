@@ -1,5 +1,4 @@
 function handleRequiredFields(event) {
-    console.log(event.currentTarget.nextElementSibling)
     const errorSpan = event.currentTarget.nextElementSibling
     if (event.currentTarget.value.length === 0) {
         errorSpan.style.display = 'flex'
@@ -31,7 +30,6 @@ function handelAge(event) {
 function handelTextArea(event) {
     const textArea = document.getElementById(event.currentTarget.id);
     const currentheight = textArea.style.height;
-    console.log((event.currentTarget.scrollHeight) + 'px');
     textArea.setAttribute("style", `height:${event.currentTarget.scrollHeight}px;overflow-y:hidden;`);
 
 }
