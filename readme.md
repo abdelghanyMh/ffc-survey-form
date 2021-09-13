@@ -5,7 +5,7 @@ A Survey Form as a [Free Code Camp](https://www.freecodecamp.org/learn/responsiv
 
 ## ✨ Demo
 
-![Tribute Page](./resources/art/demo.gif)
+![demo gif](./resources/demo.gif)
 
 
 ## 🚀 Usage
