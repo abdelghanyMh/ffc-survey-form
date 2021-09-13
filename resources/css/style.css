@@ -3,6 +3,40 @@ body {
   padding: 10px;
 }
 
+#theme-stripe {
+  background-color: #a4b1c3;
+  color: black;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 10px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: calc(100% + 2px);
+}
+
+#title {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #202124;
+  line-height: 135%;
+  max-width: 100%;
+  min-width: 0%;
+}
+
+#description {
+  white-space: pre-wrap;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: #202124;
+  margin-top: 12px;
+}
+
 span {
   color: red;
   font-weight: 500;
@@ -113,38 +147,34 @@ textarea:focus, input:not([type=radio]):not([type=checkbox]):focus, select:focus
   border-bottom-color: #a4b1c3;
 }
 
-#theme-stripe {
-  background-color: #a4b1c3;
-  color: black;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  height: 10px;
-  left: -1px;
-  position: absolute;
-  top: -1px;
-  width: calc(100% + 2px);
+button {
+  background-color: #677c9a;
+  color: #ede7f6;
+  outline: none;
+  border: none;
+  border-radius: 9px;
+  width: auto;
+  height: auto;
+  padding: 17px 26px;
+  font-weight: 700;
 }
 
-#title {
-  font-family: "Google Sans", Roboto, Arial, sans-serif;
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 40px;
-  color: #202124;
-  line-height: 135%;
-  max-width: 100%;
-  min-width: 0%;
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.2em;
+  background-color: #ede7f6;
+  color: #52647c;
 }
 
-#description {
-  white-space: pre-wrap;
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.2px;
-  line-height: 20px;
-  color: #202124;
-  margin-top: 12px;
+svg {
+  fill: #E8413B;
+}
+
+a {
+  padding-left: 0.3em;
 }
 
 @media only screen and (max-width: 1024px) {
