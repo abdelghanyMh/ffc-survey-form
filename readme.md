@@ -1,6 +1,6 @@
 ﻿﻿<h1 align="center">Welcome to  Survey Form 👋</h1>
 
-A Survey Form as a [Free Code Camp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form) front-end project where I show some important events and achievements in the doctor's life.
+A Survey Form as a [Free Code Camp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form) front-end project where I try to get user Feedback.
 ### 🏠 [Homepage](https://abdelghanymh.github.io/ffc-survey-form/)
 
 ## ✨ Demo
@@ -10,9 +10,10 @@ A Survey Form as a [Free Code Camp](https://www.freecodecamp.org/learn/responsiv
 
 ## 🚀 Usage
 1. Clone the Repository  
-	> git clone https://github.com/abdelghanyMh/fcc-tribute-page.git
+	> git clone https://github.com/abdelghanyMh/ffc-survey-form.git
 	> 
 	> cd fcc-tribute-page
+> linux users
 1. run this  command to run the site in localhost: 
 `python -m http.server`
 3. To access to this site from local machine 
